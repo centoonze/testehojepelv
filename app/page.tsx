@@ -40,6 +40,7 @@ interface QuizQuestion {
 
 interface Testimonial {
   name: string;
+  initial: string; // Você pode manter isso como fallback
   image: string; // Novo campo para o URL da imagem
   weeks: string;
   level: string;
@@ -153,6 +154,7 @@ const quizQuestions: QuizQuestion[] = [
 const testimonials: Testimonial[] = [
   {
     name: "Jaqueline",
+    initial: "J", // Mantido como fallback
     image: "https://nutricaoalimentos.shop/wp-content/uploads/2025/05/8db332e349f045c0e1949cb88c6096d4.jpg", // Caminho para a imagem
     weeks: "40 semanas",
     level: "Mestre",
