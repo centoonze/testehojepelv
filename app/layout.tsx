@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Movimento Materno - Jornada Gamificada",
+  title: "Movimento BoraParir",
   description:
     "Fisio Pélvica para facilitar o parto: Você vai receber um Plano de fisio pélvica para ter um parto mais fácil.",
     generator: 'v0.dev'
