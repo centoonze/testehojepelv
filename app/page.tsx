@@ -1141,31 +1141,44 @@ export default function MovimentoMaterno() {
               </div>
 
               <Card className="border-4 border-green-400 bg-gradient-to-r from-green-100 to-blue-100 p-8 text-center mb-8">
-                <CardContent className="space-y-6 p-0">
-                  <div className="text-6xl">🏆</div>
-                  <CardTitle className="text-3xl font-bold text-green-800">
-                    PARABÉNS! Você Completou Sua Avaliação!
-                  </CardTitle>
-                  <p className="text-xl">
-                    Agora você tem acesso ao seu plano personalizado de fisioterapia pélvica.
-                    <br />
-                    Desbloqueie TODOS os exercícios e conquistas para transformar seu parto:
-                  </p>
-                </CardContent>
-              </Card>
+  <CardContent className="space-y-6 p-0">
+    <div className="text-6xl">🏆</div>
+    <CardTitle className="text-3xl font-bold text-green-800">
+      PARABÉNS! Você Completou Sua Avaliação!
+    </CardTitle>
+    <p className="text-xl">
+      Agora você tem acesso ao seu plano personalizado de fisioterapia pélvica.
+      <br />
+      Desbloqueie TODOS os exercícios e conquistas para transformar seu parto:
+    </p>
+  </CardContent>
+</Card>
 
-              <Card className="border-2 border-yellow-300 bg-gradient-to-r from-yellow-50 to-amber-50 p-6 mb-8">
-                <CardTitle className="text-2xl font-bold text-center mb-6">
-                  ⭐ DESTAQUES DO SEU PLANO PREMIUM ⭐
-                </CardTitle>
-                <CardContent className="space-y-4 p-0">
-                  <div className="flex items-start gap-3 p-3 bg-white rounded-lg shadow">
-                    <div className="text-green-600 text-xl">✅</div>
-                    <div>
-                      <div className="font-bold">+40 Exercícios de Fisio Pélvica cientificamente comprovados</div>
-                      <div className="text-sm text-gray-600">Reduza em até 47% o tempo de trabalho de parto</div>
-                    </div>
-                  </div>
+{/* Imagem do produto entre os cards */}
+<div className="flex justify-center items-center my-8 relative">
+  <img 
+    src="https://nutricaoalimentos.shop/wp-content/uploads/2025/05/imagem_gerada-2025-05-28T180230.648.png" 
+    alt="Kit Completo de Fisioterapia Pélvica" 
+    className="max-w-[80%] md:max-w-[60%] rounded-lg shadow-xl z-10"
+  />
+  {/* Elementos decorativos opcionais */}
+  <div className="absolute -left-4 -top-4 bg-yellow-300 w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold z-20">
+    NOVO!
+  </div>
+</div>
+
+<Card className="border-2 border-yellow-300 bg-gradient-to-r from-yellow-50 to-amber-50 p-6 mb-8">
+  <CardTitle className="text-2xl font-bold text-center mb-6">
+    ⭐ DESTAQUES DO SEU PLANO PREMIUM ⭐
+  </CardTitle>
+  <CardContent className="space-y-4 p-0">
+    <div className="flex items-start gap-3 p-3 bg-white rounded-lg shadow">
+      <div className="text-green-600 text-xl">✅</div>
+      <div>
+        <div className="font-bold">+40 Exercícios de Fisio Pélvica cientificamente comprovados</div>
+        <div className="text-sm text-gray-600">Reduza em até 47% o tempo de trabalho de parto</div>
+      </div>
+    </div>
 
                   <div className="flex items-start gap-3 p-3 bg-white rounded-lg shadow">
                     <div className="text-green-600 text-xl">✅</div>
