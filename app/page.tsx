@@ -142,7 +142,7 @@ const quizQuestions: QuizQuestion[] = [
   },
   {
     title: "Você tem quantos minutos por dia livre para praticar Fisioterapia Pélvica em casa?",
-    subtitle: "Os exercícios do Movimento Materno são feitos para você conseguir realizar em casa",
+    subtitle: "Os exercícios do Movimento BoraParir são feitos para você conseguir realizar em casa",
     options: [
       { text: "10-15 minutos (mínimo recomendado)", emoji: "⏱️", points: 15 },
       { text: "15-20 minutos", emoji: "⏰", points: 15 },
@@ -1323,7 +1323,7 @@ export default function MovimentoMaterno() {
 
               <Card className="border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 mb-8">
                 <CardTitle className="text-2xl font-bold text-center mb-6">
-                  🚀 SUA JORNADA DE TRANSFORMAÇÃO COM O MOVIMENTO MATERNO 🚀
+                  🚀 SUA JORNADA DE TRANSFORMAÇÃO COM O MOVIMENTO BoraParir 🚀
                 </CardTitle>
                 <CardContent className="p-0">
                   <div className="space-y-4">
@@ -1516,7 +1516,7 @@ export default function MovimentoMaterno() {
                   <div>
                     <CardTitle className="text-xl font-bold mb-2">GARANTIA INCONDICIONAL DE 7 DIAS</CardTitle>
                     <p className="text-gray-700">
-                      Experimente o Movimento Materno sem riscos. Se em 7 dias você não perceber os primeiros resultados
+                      Experimente o Movimento BoraParir sem riscos. Se em 7 dias você não perceber os primeiros resultados
                       ou achar que o programa não é ideal para você, basta solicitar o reembolso e devolveremos 100% do
                       seu investimento.
                     </p>
