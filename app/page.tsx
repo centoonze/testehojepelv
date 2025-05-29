@@ -1380,7 +1380,7 @@ export default function MovimentoMaterno() {
                   <div className="flex flex-col md:flex-row gap-6 items-center mb-6">
                     <div className="w-48 h-48 rounded-full overflow-hidden bg-gradient-to-br from-purple-200 to-pink-200 flex items-center justify-center">
                       <img
-                        src="/placeholder.svg?height=200&width=200"
+                        src="https://optimalhealthscout.shop/wp-content/uploads/2024/11/Post-Que-tal-um-joguinho-Feed-Ad-Square-6.png"
                         alt="Dra. Mariana Costa"
                         className="w-full h-full object-cover"
                       />
