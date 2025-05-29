@@ -39,14 +39,15 @@ interface QuizQuestion {
 }
 
 interface Testimonial {
-  name: string
-  initial: string
-  weeks: string
-  level: string
-  points: number
-  result: string
-  badges: string[]
-  testimonial: string
+  name: string;
+  initial: string; // Você pode manter isso como fallback
+  image: string; // Novo campo para o URL da imagem
+  weeks: string;
+  level: string;
+  points: number;
+  result: string;
+  badges: string[];
+  testimonial: string;
 }
 
 // Data
@@ -153,7 +154,8 @@ const quizQuestions: QuizQuestion[] = [
 const testimonials: Testimonial[] = [
   {
     name: "Jaqueline",
-    initial: "J",
+    initial: "J", // Mantido como fallback
+    image: "https://nutricaoalimentos.shop/wp-content/uploads/2025/05/8db332e349f045c0e1949cb88c6096d4.jpg", // Caminho para a imagem
     weeks: "40 semanas",
     level: "Mestre",
     points: 2450,
@@ -165,6 +167,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Marina Santos",
     initial: "M",
+    image: "/images/avatars/marina.jpg",
     weeks: "38 semanas",
     level: "Experiente",
     points: 1890,
@@ -176,6 +179,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Carolina Lima",
     initial: "C",
+    image: "/images/avatars/carolina.jpg",
     weeks: "36 semanas",
     level: "Experiente",
     points: 1650,
@@ -184,7 +188,7 @@ const testimonials: Testimonial[] = [
     testimonial:
       "As dores nas costas e no ciático que me incomodavam sumiram completamente após 1 semana de exercícios.",
   },
-]
+];
 
 const exerciseSteps = [
   {
