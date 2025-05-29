@@ -394,89 +394,28 @@ export default function MovimentoMaterno() {
         </div>
       </div>
 
-{/* PAGE 1: LANDING PAGE */}
-{gameState.currentPage === 1 && (
-  <div className="min-h-screen bg-gradient-to-br from-teal-50 to-emerald-50 p-2 md:p-4">
-    <div className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-emerald-600 text-white">
-      <div className="absolute inset-0 bg-black opacity-10"></div>
-      <div className="relative max-w-4xl mx-auto px-4 py-16 text-center">
-        <h1 className="text-5xl font-bold mb-4">
-          <img 
-            src="https://nutricaoalimentos.shop/wp-content/uploads/2025/05/imagem_gerada-2025-05-28T180230.648.png" 
-            alt="Movimento BoraParirrrrr" 
-            className="max-w-full h-auto mx-auto"
-          />
-        </h1>
-        <div className="bg-yellow-400 text-black px-4 py-2 rounded-full inline-block mb-6">
-          💪 FISIOTERAPIA PÉLVICA
-        </div>
-        ...
-Essa abordagem:
+ {/* Page Content */}
+  <div className="min-h-screen">
+    {/* PAGE 1: LANDING PAGE */}
+    {gameState.currentPage === 1 && (
+      <div className="min-h-screen bg-gradient-to-br from-teal-50 to-emerald-50 p-2 md:p-4">
+        <div className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-emerald-600 text-white">
+          <div className="absolute inset-0 bg-black opacity-10"></div>
+          <div className="relative max-w-4xl mx-auto px-4 py-16 text-center">
+            <h1 className="text-5xl font-bold mb-4">A Falta de Movimento Está Matando Seu Parto</h1>
+                <div className="bg-yellow-400 text-black px-4 py-2 rounded-full inline-block mb-6">
+                  💪 FISIOTERAPIA PÉLVICA
+                </div>
+                <h2 className="text-3xl font-bold mb-6">
+                  Descubra seu Nível de Preparação Pélvica e Desbloqueie sua Jornada Rumo ao Parto dos Sonhos!
+                </h2>
+                <p className="text-xl mb-8 opacity-90">
+                  Fisio Pélvica para facilitar o parto: Você vai receber um Plano de fisio pélvica para ter um parto
+                  mais fácil.
+                </p>
+              </div>
+            </div>
 
-Mantém a estrutura semântica original (o <h1> continua sendo o título principal)
-Preserva as classes CSS originais do <h1>
-Substitui apenas o texto por uma imagem, sem alterar a estrutura do componente
-Adiciona classes para garantir que a imagem seja responsiva e centralizada
-Isso deve funcionar corretamente na Vercel sem causar problemas de atualização.
-
-
-
-está dando esse erro:
-
-350 | <div className="min-h-screen bg-teal-50">
-: ^^^
-351 | {/* Game Header */}
-352 | <div className="bg-white shadow-sm border-b border-gray-200 p-4 sticky top-0 z-50">
-353 | <div className="max-w-4xl mx-auto">
-`----
-Caused by:
-Syntax Error
-Import trace for requested module:
-./app/page.tsx
-
-Build failed because of webpack errors
- ELIFECYCLE  Command failed with exit code 1.
-Error: Command "pnpm run build" exited with 1
-Exiting build container
-
-
-
-
-Claude 3.7 Sonnet
-O erro indica um problema de sintaxe no seu código. Vamos verificar a estrutura completa para identificar o que pode estar causando o erro.
-
-O problema pode estar relacionado a um fechamento incorreto de tags, chaves ou parênteses. Vamos corrigir a parte específica da substituição da imagem e garantir que todas as tags estejam corretamente fechadas:
-
-jsx
-Copiar
-
-{/* Page Content */}
-<div className="min-h-screen">
-  {/* PAGE 1: LANDING PAGE */}
-  {gameState.currentPage === 1 && (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-emerald-50 p-2 md:p-4">
-      <div className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-emerald-600 text-white">
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="relative max-w-4xl mx-auto px-4 py-16 text-center">
-          <h1 className="text-5xl font-bold mb-4">
-            <img 
-              src="https://nutricaoalimentos.shop/wp-content/uploads/2025/05/imagem_gerada-2025-05-28T180230.648.png" 
-              alt="Movimento BoraParirrrrr" 
-              className="max-w-full h-auto mx-auto"
-            />
-          </h1>
-          <div className="bg-yellow-400 text-black px-4 py-2 rounded-full inline-block mb-6">
-            💪 FISIOTERAPIA PÉLVICA
-          </div>
-          <h2 className="text-3xl font-bold mb-6">
-            Descubra seu Nível de Preparação Pélvica e Desbloqueie sua Jornada Rumo ao Parto dos Sonhos!
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Fisio Pélvica para facilitar o parto: Você vai receber um Plano de fisio pélvica para ter um parto
-            mais fácil.
-          </p>
-        </div>
-      </div>
             <div className="max-w-4xl mx-auto px-4 py-16">
               <Card className="border-2 border-teal-200 bg-gradient-to-br from-teal-50 to-emerald-50 p-8 text-center mb-8">
                 <CardContent className="space-y-6">
