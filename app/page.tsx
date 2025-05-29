@@ -394,27 +394,15 @@ export default function MovimentoMaterno() {
         </div>
       </div>
 
-{/* Page Content */}
-<div className="min-h-screen">
-  {/* PAGE 1: LANDING PAGE */}
-  {gameState.currentPage === 1 && (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-emerald-50 p-2 md:p-4">
-      <div className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-emerald-600 text-white">
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-        <div className="relative max-w-4xl mx-auto px-4 py-16 text-center">
-          {/* Imagem flutuante substituindo o título */}
-          <div className="mb-4 animate-bounce">
-            <img 
-              src="https://nutricaoalimentos.shop/wp-content/uploads/2025/05/imagem_gerada-2025-05-28T180230.648.png" 
-              alt="Logo Flutuante" 
-              className="mx-auto h-32 md:h-40 object-contain"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  )}
-</div>
+ {/* Page Content */}
+  <div className="min-h-screen">
+    {/* PAGE 1: LANDING PAGE */}
+    {gameState.currentPage === 1 && (
+      <div className="min-h-screen bg-gradient-to-br from-teal-50 to-emerald-50 p-2 md:p-4">
+        <div className="relative overflow-hidden bg-gradient-to-r from-teal-600 to-emerald-600 text-white">
+          <div className="absolute inset-0 bg-black opacity-10"></div>
+          <div className="relative max-w-4xl mx-auto px-4 py-16 text-center">
+            <h1 className="text-5xl font-bold mb-4">Movimento BoraParirrrrr</h1>
                 <div className="bg-yellow-400 text-black px-4 py-2 rounded-full inline-block mb-6">
                   💪 FISIOTERAPIA PÉLVICA
                 </div>
